@@ -75,7 +75,7 @@
     -webkit-hyphens: auto;
     hyphens: auto;
 
-    @include respong(tab-port) {
+    @include respond(tab-port) {
       -moz-column-count: 1;
       column-count: 1;
     }
